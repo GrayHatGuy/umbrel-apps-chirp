@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: chirpi
+category: Networking
+name: "chiRPi"
+version: "0.0.1"
+tagline: Wire together the Internet of Things
+description: >-
+  Chirpstack provides a LoRaWAN network server capabilities to the umbrel.
+  
+  Note: https://www.chirpstack.io/
+
+
+  Warning: See repo licence.
+developer: GrayHatGuy LLC
+website: https://www.grayhatguy.com
+dependencies:
+repo: https://github.com/GrayHatGuy/umbrel-apps-chirp
+support: https://www.grayhatguy.com
+port: 
+  - 8080
+  - 8090
+  - 1883
+  - 1700
+gallery:
+  - grayhatguy.jpg
+path: ""
+defaultUsername: admin
+defaultPassword: moneyprintergobrrr
+torOnly: false
+submitter: Jason Russell
+submission: https://github.com/GrayHatGuy/umbrel-apps-chirp
