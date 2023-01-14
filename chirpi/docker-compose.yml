@@ -12,6 +12,7 @@
         - postgres
         - mosquitto
         - redis
+        - btcpay
       environment:
         - MQTT_BROKER_HOST=mosquitto
         - REDIS_HOST=redis
